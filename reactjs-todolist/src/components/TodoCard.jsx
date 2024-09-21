@@ -7,7 +7,7 @@ export default function TodoCard(props) {
     return (
         <li className='todoItem'>
             {children}
-            <div>
+            <div className='actionsContainer'>
                 <button onClick={() => {
                     handleEditTodo(index)
                 }}>

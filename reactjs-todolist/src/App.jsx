@@ -8,7 +8,7 @@ function App() {
 
   const [todoValue, setTodoValue] = useState('')
 
-  function persisData() {
+  function persisData(newList) {
     localStorage.setItem('todos', JSON.stringify({ todos: newList }))
   }
 
